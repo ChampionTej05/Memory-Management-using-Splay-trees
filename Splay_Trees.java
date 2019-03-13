@@ -1,30 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package splay_trees;
 
 import java.io.IOException;
-
-
-
 /**
  *
  * @author champion
  */
 
-/*
-Inventor: Daniel Sleator and Robert Tarjan
-Implementation of the Insert and Splay operation has been taken from the Daniel Sleator who invented the Splay Trees.
-*/
-
-
  class SplayBST<Key extends Comparable<Key>, Value>  {
 
     public Node root;   // root of the BST
-
-    
 
     // BST helper node data type
     public class Node {
@@ -296,12 +281,10 @@ Implementation of the Insert and Splay operation has been taken from the Daniel 
 
 }
 public class Splay_Trees {
-
-    /**
-     * @param args the command line arguments
-     */
     
-    
+     /***************************************************************************
+    * Driver function
+    ***************************************************************************/
       public static void main(String[] args) throws IOException {
       StringBuilder str=new StringBuilder();
       str.append("Program Input : \n \n");
@@ -422,13 +405,7 @@ public class Splay_Trees {
             st.get("mainZ");
             // st.put("mainZ",     "z");
             st.statusOfTree(st,"After Searching for mainZ");
-        /*
-               SplayBST.Node r1=st.root;
-            System.out.println("\n\n");
-           System.out.println("----------------- Levelorder of Tree: ------------------");
-        st. printLevelOrder(r1);
-         System.out.println("\n-----------------------------------"); 
-       */
+      
         
     }
     
